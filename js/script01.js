@@ -1,1 +1,9 @@
-console.log('Hola mundo desde el navegador')
+// Variables
+
+const cliente = 'Pablo'
+let cliente2 = 'Juan'
+let precioDescuento = 200
+
+
+
+console.log(cliente, cliente2, precioDescuento)
