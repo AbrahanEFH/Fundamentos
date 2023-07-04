@@ -12,6 +12,8 @@ const cliente = {
 }
 
 const { nombre, precio, disponible } = producto
+
+//Podemos crear un alias para utilizar el mismo nombre de otra variable
 const { nombre: nombreCliente } = cliente
 
 console.log(nombre, precio, disponible)
