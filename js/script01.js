@@ -6,4 +6,12 @@ let precioDescuento = 200
 
 
 
-console.log(cliente, cliente2, precioDescuento)
+
+// tryCatch
+
+try {
+    console.log(cliente, cliente2, precioDescuento)
+
+} catch (error) {
+    console.log(error)
+}
