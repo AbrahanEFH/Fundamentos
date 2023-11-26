@@ -30,7 +30,7 @@ async function ejecutar() {
     try {
         const respuesta = await descargarCliente()
 
-        console.log(2 + 2)
+        console.log(4 + 2)
         console.log(respuesta)
     } catch (error) {
         console.log(error)
