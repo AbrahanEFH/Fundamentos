@@ -24,9 +24,14 @@ function descargarCliente() {
     })
 }
 
-// Async await
+// Async await con function expression 
 
 async function ejecutar() {
+
+}
+
+// async await con function declaration
+const ejecutar = async () => {
     try {
         const respuesta = await descargarCliente()
 
