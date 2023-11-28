@@ -40,12 +40,14 @@ function descargarNuevosPedidos() {
     })
 }
 
-function descargarNuevosPedidos() {
-    return new Promise(resolve => {
-        console.log('Descargando Pedidos')
 
-        setTimeout(() => {
-            resolve('Los pedidos fueron descargados')
-        }, 3000);
-    })
+const app = async () => {
+    try {
+        const clientes = await descargarNuevosClientes()
+        console.log(clientes)
+    } catch (error) {
+        console.log(error)
+    }
 }
+
+app()
