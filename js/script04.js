@@ -18,3 +18,34 @@ const { nombre: nombreCliente } = cliente
 
 console.log(nombre, precio, disponible)
 console.log(nombreCliente)
+
+function descargarNuevosClientes() {
+
+    return new Promise(resolve => {
+        console.log('Descargando Clientes')
+
+        setTimeout(() => {
+            resolve('Los clientes fueron descargados...')
+        }, 3000);
+    })
+}
+
+function descargarNuevosPedidos() {
+    return new Promise(resolve => {
+        console.log('Descargando pedidos...')
+
+        setTimeout(() => {
+            resolve('Los pedidos fueron descargados')
+        }, 3000);
+    })
+}
+
+function descargarNuevosPedidos() {
+    return new Promise(resolve => {
+        console.log('Descargando Pedidos')
+
+        setTimeout(() => {
+            resolve('Los pedidos fueron descargados')
+        }, 3000);
+    })
+}
