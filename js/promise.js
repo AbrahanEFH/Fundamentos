@@ -10,9 +10,13 @@ function obtenerDatos() {
 }
 
 
-// consultar API con async await
+// consultar API con async
 async function obtenerDatos() {
-    const respuesta = await fetch(url)
-    const resultado = await respuesta.json()
-    console.log(resultado)
+    try {
+        const respuesta = await fetch(url)
+        const resultado = await respuesta.json()
+        console.log(resultado)
+    } catch (error) {
+        console.log(error)
+    }
 }
