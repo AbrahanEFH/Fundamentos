@@ -8,3 +8,11 @@ function obtenerDatos() {
         .then(resultado => console.log(resultado))
         .catch(error => console.log(error))
 }
+
+
+// consultar API con async await
+async function obtenerDatos() {
+    const respuesta = await fetch(url)
+    const resultado = await respuesta.json()
+    console.log(resultado)
+}
