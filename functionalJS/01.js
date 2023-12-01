@@ -23,3 +23,15 @@ const mayor400 = producto => {
 const resultadoP = carrito.filter(mayor400)
 
 console.log(resultadoP)
+
+
+// funciones puras o Pure Functions
+
+const numero1 = 20
+
+const duplicar = numero => numero * 2
+
+const resultados = duplicar(numero1)
+
+console.log(resultados)
+console.log(numero1)
