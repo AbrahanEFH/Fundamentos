@@ -3,9 +3,9 @@ const carrito = [
     { nombre: 'Television', precio: 5700 },
     { nombre: 'Tablet', precio: 5200 },
     { nombre: 'Audifonos', precio: 5300 },
-    { nombre: 'Teclado', precio: 5200 },
+    { nombre: 'Teclado', precio: 100 },
     { nombre: 'Bocinas', precio: 1500 },
-    { nombre: 'Lapto', precio: 4500 },
+    { nombre: 'Lapto', precio: 200 },
 ]
 
 const obtenerNombres = producto => {
@@ -13,4 +13,13 @@ const obtenerNombres = producto => {
 }
 
 const resultado = carrito.map(obtenerNombres)
+
 console.log(resultado)
+
+const mayor400 = producto => {
+    return producto.precio > 400
+}
+
+const resultadoP = carrito.filter(mayor400)
+
+console.log(resultadoP)
