@@ -7,3 +7,12 @@ function mostrarCliente() {
 }
 
 mostrarCliente()
+
+obtenerCliente('Juan')
+
+
+function obtenerCliente(nombre) {
+    console.log(`El cliente es ${nombre}`)
+}
+
+obtenerCliente('Luis')
