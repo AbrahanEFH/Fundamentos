@@ -8,6 +8,8 @@ function mostrarCliente() {
 
 mostrarCliente()
 
+
+// Sin importar donde se llame la funcion, con function declaration se ejecutara correctamente.
 obtenerCliente('Juan')
 
 
@@ -16,3 +18,11 @@ function obtenerCliente(nombre) {
 }
 
 obtenerCliente('Luis')
+
+// Function Expression
+
+const obtenerCliente2 = function (nombre) {
+    console.log(`El nombre del cliente es ${nombre}`)
+}
+
+obtenerCliente2('Manuel')
