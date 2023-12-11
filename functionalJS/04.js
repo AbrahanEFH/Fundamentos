@@ -29,3 +29,7 @@ const musicaFavorita = ['Rock', 'Pop']
 // Uso del call
 
 persona.call(informacion, musicaFavorita[0], musicaFavorita[1])
+
+// Apply. Se le pude pasar un arreglo
+
+persona.apply(informacion, musicaFavorita)
