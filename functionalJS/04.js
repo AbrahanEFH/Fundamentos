@@ -33,3 +33,14 @@ persona.call(informacion, musicaFavorita[0], musicaFavorita[1])
 // Apply. Se le pude pasar un arreglo
 
 persona.apply(informacion, musicaFavorita)
+
+// New Binding
+
+function Auto(modelo, color) {
+    this.modelo = modelo
+    this.color = color
+}
+
+const auto = new Auto('Camaro', 'Negro')
+
+console.log(auto)
